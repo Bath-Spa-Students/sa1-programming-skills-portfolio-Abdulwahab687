@@ -13,6 +13,7 @@ word3 =
 _____(_________)
 
 '''
+
 word1 = "coding "
 word2 = "Is "
 word3 = "cool "
