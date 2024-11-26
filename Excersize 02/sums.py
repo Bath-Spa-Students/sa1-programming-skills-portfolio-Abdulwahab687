@@ -10,16 +10,15 @@ In this exercise, you will create and work with integer variables, perform arith
 4. Print the value of the sum to the console.
 
 '''
+# Define input numbers
+first_value = 8   # Initial number
+second_value = 10 # Number to be added
 
-# Solution 1: Step-by-step approach with detailed variable naming
-# Initialize first number
-num1 = 8    # Starting value for our addition operation
+# Perform arithmetic operation
+calculation_result = first_value + second_value
 
-# Initialize second number
-num2 = 10   # Second value to be added
-
-# Calculate and store the sum of the two numbers
-total_sum = num1 + num2    # Using descriptive variable name for better code readability
-
-# Display the result using string formatting
-print(f"The sum of {num1} and {num2} is: {total_sum}")    # Format string provides clear output context
+# Display comprehensive output
+print(f"Mathematical Operation Details:")
+print(f"First Number:  {first_value}")
+print(f"Second Number: {second_value}")
+print(f"Total Sum:     {calculation_result}")
