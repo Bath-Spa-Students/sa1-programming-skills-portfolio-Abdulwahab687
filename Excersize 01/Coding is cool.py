@@ -14,10 +14,13 @@ _____(_________)
 
 '''
 
-# Initialize variables to store each word of the phrase
-word1 = "Coding"    # First word of our phrase
-word2 = "is"        # Second word (linking verb)
-word3 = "Cool"      # Third word of our phrase
+# Variables in multiple contexts
+tech_word = "Coding"     # English term
+linking_word = "is"      # Universal connector
+positive_term = "Cool"   # Descriptive quality
 
-# Use string concatenation with spaces to combine the variables and print the phrase
-print(word1 + " " + word2 + " " + word3)    # Adds spaces between words for proper formatting
+# Combine with standard concatenation
+global_message = tech_word + " " + linking_word + " " + positive_term
+
+# Display the message
+print(global_message)
