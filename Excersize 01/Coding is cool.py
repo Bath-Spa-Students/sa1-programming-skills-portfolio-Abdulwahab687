@@ -13,11 +13,13 @@ word3 =
 _____(_________)
 
 '''
+# Variables celebrating coding
+word1 = "Coding"       # Represents the primary subject
+word2 = "is"           # Linking verb
+word3 = "Cool"         # Descriptive quality
 
-# Initialize variables to store each word of the phrase
-word1 = "Coding"    # First word of our phrase
-word2 = "is"        # Second word (linking verb)
-word3 = "Cool"      # Third word of our phrase
+# Combine variables using string concatenation
+result = word1 + " " + word2 + " " + word3
 
-# Use string concatenation with spaces to combine the variables and print the phrase
-print(word1 + " " + word2 + " " + word3)    # Adds spaces between words for proper formatting
+# Print the motivational coding phrase
+print(result)  # Outputs: "Coding is Cool"
