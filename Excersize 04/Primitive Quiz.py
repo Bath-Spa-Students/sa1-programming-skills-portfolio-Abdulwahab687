@@ -1,3 +1,4 @@
+
 '''
 
 ## Exercise 4: Primitive Quiz - 30 Marks
@@ -21,3 +22,4 @@ if answer.lower() == "paris":
     print("Correct! Well done.")
 else:
     print("Sorry, that's incorrect. The capital of France is Paris.")
+
