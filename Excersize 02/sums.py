@@ -21,4 +21,8 @@ calculation_result = first_value + second_value
 print(f"Mathematical Operation Details:")
 print(f"First Number:  {first_value}")
 print(f"Second Number: {second_value}")
+<<<<<<< HEAD
 print(f"Total Sum:     {calculation_result}")   
+=======
+print(f"Total Sum:     {calculation_result}")
+>>>>>>> 935a93c861deafb2d8a233fdd0c7f94f189306ad
