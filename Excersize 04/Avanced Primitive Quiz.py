@@ -97,4 +97,7 @@ else:
 # Quiz finished
 print("Quiz completed!")
 print(f"You got {score} out of {total_questions} questions correct.")
+
+print("Thanks for playing!")
+
 print("Thanks for playing!")
