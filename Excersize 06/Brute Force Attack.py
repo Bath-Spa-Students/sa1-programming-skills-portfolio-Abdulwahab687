@@ -14,15 +14,33 @@ Write a program that simulates a password entry system. The correct password is 
 Modify the program to include a maximum of 5 password attempts. If the user enters the wrong password, inform them of the remaining attempts. If the maximum number of attempts is reached, inform the user that the authorities have been alerted.
 
 '''
+# Define the correct password as a constant
+CORRECT_PASSWORD = "12345"
 
-# Define correct password
-correct_password = "12345"
+# Track number of attempts
+attempts = 0
+max_attempts = 3
 
-# Keep asking for password until correct
-while True:
-    password = input("Enter password: ")
-    if password == correct_password:
-        print("Access granted!")
-        break
+# Start a loop that continues until the correct password is entered
+while attempts < max_attempts:
+    # Prompt the user to enter a password
+    entered_password = input("Please enter the password: ")
+    
+    # Increment attempts counter
+    attempts += 1
+    
+    # Check if the entered password matches the correct one
+    if entered_password == CORRECT_PASSWORD:
+        # If correct, display a success message and exit the loop
+        print("Permission to enter granted. Good day!")
+        break  # Exit the loop
     else:
-        print("Incorrect password. Try again.")
+        # Calculate remaining attempts
+        remaining_attempts = max_attempts - attempts
+        
+        # If attempts are exhausted
+        if remaining_attempts == 0:
+            print("Too many incorrect attempts. Access denied.")
+        else:
+            # If incorrect, let the user know and how many attempts are left
+            print(f"Incorrect password. {remaining_attempts} attempts remaining.")
