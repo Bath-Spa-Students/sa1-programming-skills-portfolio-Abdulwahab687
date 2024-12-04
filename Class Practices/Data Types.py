@@ -1,6 +1,5 @@
  # 1. Numeric Data Types
 # 1. Numeric Data Types
->>>>>>> Stashed changes
 # Whole numbers
 current_age = 25
 inventory_count = -10
@@ -62,4 +61,3 @@ print("### Set Examples ###")
 print("Distinct Values:", distinct_numbers)
 =======
 print("Distinct Values:", distinct_numbers)
->>>>>>> Stashed changes
