@@ -1,3 +1,9 @@
+
+'''
+You should have keys such as first_name, last_name, age, and city. Print each piece of
+information stored in your dictionary.
+'''
+
 # Creating a dictionary to store personal details
 user_details = {
     "first_name": "Nasir",
