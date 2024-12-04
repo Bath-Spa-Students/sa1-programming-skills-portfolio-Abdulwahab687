@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
  # 1. Numeric Data Types
+=======
+# 1. Numeric Data Types
+>>>>>>> Stashed changes
 # Whole numbers
 current_age = 25
 inventory_count = -10
@@ -56,4 +60,8 @@ print("Latitude Value:", map_coordinates[0])
 print()
 
 print("### Set Examples ###")
+<<<<<<< Updated upstream
 print("Distinct Values:", distinct_numbers)
+=======
+print("Distinct Values:", distinct_numbers)
+>>>>>>> Stashed changes
